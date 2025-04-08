@@ -49,6 +49,7 @@ function deleteProduct($id){
     }
 }
 
+
 function getDataById($id){
     global $pdo;
     try{
@@ -94,6 +95,7 @@ function RegisterUser($email,$pass){
         }
     }
 }
+
 function LoginUser($email,$pass){
     global $pdo;
     try{
